@@ -1,14 +1,19 @@
-# Server port
-PORT=3000
-
-# MongoDB connection string
-MONGODB_URL=mongodb://127.0.0.1:27017/news-cms-project
-
-# Session secret (if using sessions)
-SESSION_SECRET=your-secret-key
-
-# JWT secret for authentication
-JWT_SECRET=mysecuresecret
-
-# Optional: React frontend URL for CORS
-REACT_APP_URL=http://localhost:5173
+# Server port
+PORT=3000
+
+# MongoDB connection string
+MONGODB_URL=mongodb://127.0.0.1:27017/news-cms-project
+
+# Session secret (if using sessions)
+SESSION_SECRET=your-secret-key
+
+# JWT secret for authentication
+JWT_SECRET=mysecuresecret
+
+# Optional: React frontend URL for CORS
+REACT_APP_URL=http://localhost:5173
+config.bat
+node_modules
+temp_auto_push.bat
+temp_interactive_push.bat
+.env
